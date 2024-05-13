@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora permutação</title>
+</head>
+<body> 
+
+  <h1 style="text-align: center; margin-top: 50px; font-family:Arial, Helvetica, sans-serif; margin-bottom: none; display: block;" class="titleMain">Calculadora de permutação</h1>
+
+  <div class="container">
+
+    <div class="calcSimples">
+
+        <div class="title">
+          <h1>Com números</h1>
+        </div>
+
+        <div class="permSimples">
+          <h4>Digite um número</h4>
+          <input id="inputNum" type="number" placeholder="Digite..."/><br>
+          <button id="calc">Calcular</button>
+        </div>
+
+    </div>
+
+    <div class="calcPalavras">
+      <div class="title">
+        <h1>Com palavras</h1>
+      </div>
+
+      <div class="permWord">
+        <h4>Digite uma palavra</h4>
+        <input id="inputWord" type="text" placeholder="Digite..."/><br>
+        <button id="calcWord">Calcular</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="containerResult">
+
+  <div class="resultNum" style="width: 200px; margin-right: 300px; margin-left: 120px;">
+    <div id="resultNum" style="background-color: white; margin-top: 40px; border-radius: 4px;"></div>
+    <div id="formulaNum" style="margin: 20px;"></div>
+  </div>
+
+<div class="resultWord" style="width: 200px; margin-top: 0px;">
+  <div id="resultWord" style="background-color: white; margin-top: 20px; border-radius: 4px;"></div>
+  <div id="formulaWord" style="margin: 20px;"></div>
+</div>
+
+  </div>
+</body>
+<script src="permutaçao.js"></script>
+</html>

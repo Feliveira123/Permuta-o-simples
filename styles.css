@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(white, rgb(255, 65, 176));
+    height: 3000px;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerTitle {
+    text-align: center;
+}
+
+.containerResult {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calcSimples {
+    background-image: linear-gradient(rgb(147, 198, 228), rgb(255, 65, 176));
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+Input {
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+
+button {
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(147, 198, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calcPalavras {
+    background-image: linear-gradient(rgb(147, 198, 228), rgb(255, 65, 176));
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+
+.containerResult {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1060px) and (max-height: 1060px) {
+    .container {
+      display: block;
+      width: 100%;
+    }
+
+    .calcSimples {
+        margin-left: 180px;
+    }
+
+    .calcPalavras {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 885px){
+    
+    .containerResult {
+        display: block;
+        margin-left: 150px;
+    }
+
+    .resultWord {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 710px){
+
+    .container {
+        margin-left: 70px;
+    }
+
+    .calcSimples {
+        margin-left: 10px;
+    }
+
+    .calcPalavras {
+        margin-left: 10px;
+    }
+
+    .titleMain {
+        font-size: 20px;
+    }
+
+    .containerResult {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+  
+}
